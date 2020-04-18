@@ -1,0 +1,24 @@
+<%- include('header'); -%>
+  <section class="paintings-content">
+    <h3>Zoekresultaten</h3>
+    <form class="search-form" method="get">
+      <input type="text" class="search-field" name="s" value="<%= s %>" placeholder="Schilderijen zoeken">
+      <input type="submit" class="submit-btn" value="Zoeken">
+    </form>
+    <div class="painting-grid">
+      <% if (results.length > 0) { %>
+        <% for (let i=0; i<results.length; i++) { %>
+          <a href="/painting/<%=results[i].name %>" class="single-image <%= results[i].filters %>">
+            <img src="<%=results[i].painting_img %>" alt="Foto <%=results[i].name %>">
+            <div class="overlay">
+              <h4><%=results[i].name %></h4>
+            </div>
+          </a>
+        <% } // Close forloop %>
+      <% } else { %>
+        <p>Er zijn geen resultaten gevonden</p>
+      <% } %>
+    </div>
+  </section>
+
+<%- include('footer'); -%>

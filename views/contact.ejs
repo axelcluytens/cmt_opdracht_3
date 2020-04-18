@@ -1,0 +1,30 @@
+<%- include("header"); -%>
+  <div class="paintings-content">
+    <h3>Contacteer ons</h3>
+    <form class="contact-form">
+      <label for="fname">Voornaam</label>
+      <input type="text" id="fname" required placeholder="Voornaam" autocomplete="given-name">
+      <label for="email">E-mail adres</label>
+      <input type="email" id="email" required placeholder="E-mail adres" autocomplete="email">
+      <label for="msg">Bericht</label>
+      <textarea id="msg" placeholder="Bericht" required></textarea>
+      <input type="submit" value="Verstuur" class="modal-click" data-modal="#spam-message" id="submit-contact">
+    </form>
+  </div>
+  <div class="paintings-content grey">
+    <h3>Onze Locatie</h3>
+    <div id="map"></div>
+  </div>
+  <div class="content">
+    <h3>Wie zijn we?</h3>
+    <p>Het kunstmuseum is een online museum die de 10 beste werken van deze tijd voorsteld. De webapp is gemaakt door een student van AP Hogeschool in opdracht van AP.</p>
+    <p>Door COVID-19 is het op deze moment niet mogelijk om een museum te bezoeken. Om deze reden ben ik begonnen met het ontwikkelen van een online kunstmuseum. Via deze webapp kunnen mensen terug schilderijen bezichtigen in een digitale omgeving op een veilige manier.</p>
+  </div>
+  <div class="modal-container" id="spam-message">
+    <div class="modal">
+      <a href="#" class="modal-close"><i class="fas fa-times"></i></a>
+      <p>Vanwege de grote hoeveelheid spam berichten hebben we het contacteer formulier tijdelijk moeten blokkeren. We werken zo snel mogelijk aan een oplossing om dit probleem in de toekomst te voorkomen. Onze excuses!</p>
+    </div>
+  </div>
+  <script src="/javascript/contact.js"></script>
+<%- include("footer"); -%>

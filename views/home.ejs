@@ -1,0 +1,108 @@
+<%- include('header'); -%>
+  <section class="top-section">
+    <h3>Welkom Bij Het</h3>
+    <h1>Kunstmuseum</h1>
+    <a href="/paintings">Bekijk kunstwerken</a>
+    <svg class="corner-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><style>.cl-1{fill:#ea5757;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cl-1" d="M200,0H0V200C0,89.54,89.54,0,200,0Z"/></g></g></svg>
+    <svg class="corner-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><style>.cr-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cr-1" d="M0,200H200V0C200,110.46,110.46,200,0,200Z"/></g></g></svg>
+  </section>
+  <section class="content">
+    <h3>Categorieën</h3>
+    <div class="horizontal">
+      <a href="paintings/category/expressionisme" class="item item--sm">
+        <div class="img" style="background-image: url(/img/painting/532px-The_Scream.jpg);"></div>
+        <div class="overlay">
+          <h4>Expressionisme</h4>
+        </div>
+      </a>
+      <a href="paintings/category/symbolisme" class="item item--sm">
+        <div class="img" style="background-image: url(/img/painting/532px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg);"></div>
+        <div class="overlay">
+          <h4>Symbolisme</h4>
+        </div>
+      </a>
+      <a href="paintings/category/postimpressionisme" class="item item--sm">
+        <div class="img" style="background-image: url(/img/painting/532px-Vincent_Willem_van_Gogh_128.jpg);"></div>
+        <div class="overlay">
+          <h4>Postimpressionisme</h4>
+        </div>
+      </a>
+      <a href="paintings/category/abstract" class="item item--sm">
+        <div class="img" style="background-image: url(/img/painting/532px-Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg);"></div>
+        <div class="overlay">
+          <h4>Abstract</h4>
+        </div>
+      </a>
+    </div>
+    <h3>Nieuwste</h3>
+    <div class="horizontal">
+      <% for (let i=art.length-1; i>2; i--) { %>
+        <a href="/painting/<%=art[i].name %>" class="item item-md">
+          <div class="img" style="background-image: url(<%=art[i].painting_img %>);"></div>
+          <div class="overlay">
+            <h4><%=art[i].name %></h4>
+          </div>
+        </a>
+      <% } // close forloop %>
+    </div>
+    <h3>Populair</h3>
+    <div class="horizontal">
+      <% for (let i=0; i<7; i++) { %>
+        <a href="/painting/<%=art[i].name %>" class="item item-md">
+          <div class="img" style="background-image: url(<%=art[i].painting_img %>);"></div>
+          <div class="overlay">
+            <h4><%=art[i].name %></h4>
+          </div>
+        </a>
+      <% } // close forloop %>
+    </div>
+    <h3>Artiesten</h3>
+    <div class="horizontal">
+      <a href="/paintings/artist/edvard_munch" class="item item-lg">
+        <div class="img" style="background-image: url(/img/artist/Edvard_Munch_1933.jpg);"></div>
+        <div class="overlay">
+          <h4>Edvard Munch</h4>
+        </div>
+      </a>
+      <a href="/paintings/artist/vincent_van_gogh" class="item item-lg">
+        <div class="img" style="background-image: url(/img/artist/532px-VanGogh_1887_Selbstbildnis.jpg);"></div>
+        <div class="overlay">
+          <h4>Vincent van Gogh</h4>
+        </div>
+      </a>
+      <a href="/paintings/artist/arnold_bocklin" class="item item-lg">
+        <div class="img" style="background-image: url(/img/artist/Arnold_Boecklin-fiedelnder_Tod.jpg);"></div>
+        <div class="overlay">
+          <h4>Arnold Böcklin</h4>
+        </div>
+      </a>
+      <a href="/paintings/artist/franz_marc" class="item item-lg">
+        <div class="img" style="background-image: url(/img/artist/FranzMarccropped.jpg);"></div>
+        <div class="overlay">
+          <h4>Franz Marc</h4>
+        </div>
+      </a>
+      <a href="/paintings/artist/paul_gauguin" class="item item-lg">
+        <div class="img" style="background-image: url(/img/artist/1200px-Paul_Gauguin_111.jpg);"></div>
+        <div class="overlay">
+          <h4>Paul Gauguin</h4>
+        </div>
+      </a>
+      <a href="/paintings/artist/piet_mondriaan" class="item item-lg">
+        <div class="img" style="background-image: url(/img/artist/440px-Piet_Mondriaan.jpg);"></div>
+        <div class="overlay">
+          <h4>Piet Mondriaan</h4>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </section>
+
+<%- include('footer'); -%>

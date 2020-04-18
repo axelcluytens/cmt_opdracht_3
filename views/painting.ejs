@@ -1,0 +1,46 @@
+<%- include('header'); -%>
+
+<%
+  for (let i=0; i<art.length; i++) {
+    if (art[i].name == painting) {
+%>
+      <div class="painting-lg">
+        <img src="<%=art[i].painting_img %>" alt="Foto van <%=art[i].name %>">
+        <svg class="inner-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M100,0h0A100,100,0,0,0,0,100H100Z"/></g></g></svg>
+        <div class="center-bar"></div>
+        <svg class="corner-right-sm" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><style>.cr-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cr-1" d="M0,200H200V0C200,110.46,110.46,200,0,200Z"/></g></g></svg>
+      </div>
+      <div class="back-overlay"><a href="#" class="back"><i class="fas fa-chevron-left"></i></a></div>
+      <div class="painting-content">
+        <h6><%=art[i].categorie %></h6>
+        <h3><%=art[i].name %></h3>
+        <div class="artist-profile">
+          <div class="profile-img" style="background-image:url(<%=art[i].artist_img %>)"></div>
+          <h5><%=art[i].artist %></h5>
+        </div>
+        <p class="desc"><%=art[i].description %></p>
+        <a href="#" class="read-more">Meer Lezen</a>
+        <div class="timeline">
+          <div class="line"></div>
+          <div class="time-frame frame1">
+            <span></span>
+            <p>1910</p>
+          </div>
+          <div class="time-frame frame2">
+            <p><%=art[i].year %></p>
+            <span></span>
+          </div>
+          <div class="time-frame frame3">
+            <span></span>
+            <p>1920</p>
+          </div>
+        </div>
+      </div>
+      
+<% 
+    } // Close if statement
+  } // Close forloop 
+%>
+
+<script src="/javascript/painting.js"></script>
+<script src="/javascript/master.js"></script>

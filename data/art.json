@@ -1,0 +1,104 @@
+{
+  "art": [
+    {
+      "name": "De Schreeuw",
+      "artist": "Edvard Munch",
+      "categorie": "Expressionisme",
+      "year": 1893,
+      "painting_img": "/img/painting/532px-The_Scream.jpg",
+      "artist_img": "/img/artist/Edvard_Munch_1933.jpg",
+      "description": "De Schreeuw (Noors: Skrik) is de naam van een viertal schilderijen en een lithografie van Edvard Munch uit 1893. De oorspronkelijke versie van de schreeuw uit 1893 hangt in het Nationaal kunstmuseum (Nasjonalgalleriet) in Oslo. Het geldt als het aangrijpendste schilderij van Munch. Het drukt het geestelijke leed en de emotionele kwelling uit die de schilder tijdens bepaalde perioden in zijn leven heeft gevoeld.",
+      "filters": "em exp"
+    },
+    {
+      "name": "De sterrennacht",
+      "artist": "Vincent van Gogh",
+      "categorie": "Symbolisme",
+      "year": 1889,
+      "painting_img": "/img/painting/532px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "artist_img": "/img/artist/532px-VanGogh_1887_Selbstbildnis.jpg",
+      "description": "De sterrennacht is een schilderij van de Nederlandse postimpressionistische kunstschilder Vincent van Gogh. Het is geschilderd in olieverf op doek en meet 73 bij 92 cm. Het wordt gezien als een van zijn grootste meesterwerken. Het behoort tot de permanente collectie van het Museum of Modern Art in New York.",
+      "filters": "vvg sym"
+    },
+    {
+      "name": "Het Dodeneiland",
+      "artist": "Arnold Böcklin",
+      "categorie": "Symbolisme",
+      "year": 1880,
+      "painting_img": "/img/painting/600px-Arnold_Böcklin_-_Die_Toteninsel_I_Basel,_Kunstmuseum.jpg",
+      "artist_img": "/img/artist/Arnold_Boecklin-fiedelnder_Tod.jpg",
+      "description": "Het dodeneiland (Duits: Die Toteninsel) is een reeks schilderijen van de Zwitserse kunstschilder Arnold Böcklin (1827–1901). Böcklin maakte tussen 1880 en 1886 vijf versies van het Het dodeneiland. Met name de derde versie was een van de eerste schilderijen waarvan op grote schaal (zwart-wit)reproducties werden gemaakt en geldt nog steeds als een van de populairste schilderijen van het symbolisme. Het werk heeft stevige romantische wortels.",
+      "filters": "ab sym"
+    },
+    {
+      "name": "De toren van blauwe paarden",
+      "artist": "Franz Marc",
+      "categorie": "Expressionisme",
+      "year": 1913,
+      "painting_img": "/img/painting/Franz_Marc_029a.jpg",
+      "artist_img": "/img/artist/FranzMarccropped.jpg",
+      "description": "'De toren van blauwe paarden' (Der Turm der blauen Pferde) is een schilderij van de expressionistische Duitse kunstschilder Franz Marc, geschilderd in 1913, Olieverf op doek, 200 bij 130 centimeter groot. Het werk werd in de nazitijd bestempeld als Entartete Kunst, werd aangekocht door Hermann Göring en geldt sinds 1945 als verdwenen.",
+      "filters": "fm exp"
+    },
+    {
+      "name": "Koeien, geel-rood-groen",
+      "artist": "Franz Marc",
+      "categorie": "Expressionisme",
+      "year": 1912,
+      "painting_img": "/img/painting/Franz_Marc_016.jpg",
+      "artist_img": "/img/artist/FranzMarccropped.jpg",
+      "description": "Koeien, geel-rood-groen (Kühe, gelb-rot-grün) is een expressionistisch schilderij van de Duitse kunstschilder Franz Marc. Het is een olieverf op doek schilderij van 62 x 87,5 cm. Franz Marc maakte het in 1912. Het behoort tot de collectie van de Städtische Galerie im Lenbachhaus in München.",
+      "filters": "fm exp"
+    },
+    {
+      "name": "Zonnebloemen (Van Gogh)",
+      "artist": "Vincent van Gogh",
+      "categorie": "Postimpressionisme",
+      "year": 1888,
+      "painting_img": "/img/painting/532px-Vincent_Willem_van_Gogh_128.jpg",
+      "artist_img": "/img/artist/532px-VanGogh_1887_Selbstbildnis.jpg",
+      "description": "Zonnebloemen is een serie stillevens (olieverf op doek) gemaakt door de Nederlandse kunstschilder Vincent van Gogh. Van de serie zonnebloemen bestaan er drie schilderijen met vijftien zonnebloemen in een vaas en twee schilderijen met twaalf zonnebloemen in een vaas. Van Gogh schilderde eerst de Vaas met de twaalf zonnebloemen, die in het Neue Pinakothek-museum in München in Duitsland hangt. Dan de eerste van de Vaas met vijftien zonnebloemen, die in de National Gallery in Londen hangt, gemaakt in augustus 1888 toen hij in Arles in Zuid-Frankrijk woonde. De latere schilderijen zijn ontstaan in januari 1889.",
+      "filters": "vvg pos"
+    },
+    {
+      "name": "Tahitiaanse vrouwen op het strand",
+      "artist": "Paul Gauguin",
+      "categorie": "postimpressionisme",
+      "year": 1891,
+      "painting_img": "/img/painting/Gauguin-Paul-Tahitiaanse-vrouwen-op-het-strand-1891-Parijs.jpg",
+      "artist_img": "/img/artist/1200px-Paul_Gauguin_111.jpg",
+      "description": "Paul Gauguin, Tahitiaanse vrouwen op het strand, 1891, olieverf op doek, 69 x 91 cm, Musée d'Orsay, Parijs. Een schilderij van Gauguin met een vergelijkbare voorstelling en dezelfde titel bevindt zich in de Staatliche Kunstsammlungen Dresden.",
+      "filters": "pg pos"
+    },
+    {
+      "name": "De zonnebloemenschilder",
+      "artist": "Paul Gauguin",
+      "categorie": "postimpressionisme",
+      "year": 1888,
+      "painting_img": "/img/painting/Paul_Gauguin_104.jpg",
+      "artist_img": "/img/artist/1200px-Paul_Gauguin_111.jpg",
+      "description": "Het schilderij De zonnebloemenschilder (Frans: Le peintre de Tournesols) is door Paul Gauguin geschilderd in de tijd dat hij samen met Vincent van Gogh in het Atelier van het Zuiden werkte. Dit Atelier van het Zuiden heeft 63 dagen bestaan, van 21 oktober tot 24 december 1888, en was gehuisvest in het Gele Huis in Arles in de Provence. De zonnebloemenschilder werd in de eerste helft van december 1888 gemaakt, een paar weken voor het noodlottige einde van de samenwerking tussen Van Gogh en Gauguin.",
+      "filters": "pg pos"
+    },
+    {
+      "name": "Broadway Boogie Woogie",
+      "artist": "Piet Mondriaan",
+      "categorie": "Abstract",
+      "year": 1943,
+      "painting_img": "/img/painting/532px-Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg",
+      "artist_img": "/img/artist/440px-Piet_Mondriaan.jpg",
+      "description": "Broadway Boogie Woogie is een schilderij gemaakt in 1942-1943 door de Nederlandse kunstschilder Piet Mondriaan. Het werk van Mondriaan is een goed voorbeeld van de kunststroming die moderne kunst genoemd wordt. Hier is op radicale wijze afstand genomen van directe representatie van de waargenomen werkelijkheid. Het werk is een constructie van horizontale en verticale gekleurde lijnen op een wit vlak. De titel verwijst enerzijds naar het stratenpatroon van het New Yorkse stadsdeel Manhattan, waar Broadway een prominent onderdeel van vormt, en anderzijds naar de swingende muziekstijl boogiewoogie uit de tijd waarin het schilderij ontstond, en waar Mondriaan liefhebber van was.",
+      "filters": "pm abs"
+    },
+    {
+      "name": "Compositie met rood, geel en blauw",
+      "artist": "Piet Mondriaan",
+      "categorie": "Abstract",
+      "year": 1942,
+      "painting_img": "/img/painting/MONDRIAAN-Piet-Mondriaan-Compositie-met-rood-geel-en-blauw-Tate-Modern-Londen.jpg",
+      "artist_img": "/img/artist/440px-Piet_Mondriaan.jpg",
+      "description": "Piet Mondriaan (1872-1944), Compositie met rood, geel en blauw, 1937 (afgemaakt 1942), olieverf op doek, 72.5 x 69 cm, Tate Modern, Londen",
+      "filters": "pm abs"
+    }
+  ]
+}

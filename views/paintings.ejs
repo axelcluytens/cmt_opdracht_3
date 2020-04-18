@@ -1,0 +1,36 @@
+ <%- include('header'); -%>
+  <section class="paintings-content">
+    <h3>Schilderijen</h3>
+    <h4>Categorie</h4>
+    <div class="filter-list filter-cat">
+      <a href="#" class="all <% if (category !== 'symbolisme' && category !== 'postimpressionisme' && category !== 'expressionisme' && category !== 'abstract') { %>selected <% } %>" data-filter="*">Alles</a>
+      <a href="#" <% if (category === 'symbolisme') { %>class="selected" <% } %> data-filter=".sym" data-url="symbolisme">Symbolisme</a>
+      <a href="#" <% if (category === 'postimpressionisme') { %>class="selected" <% } %> data-filter=".pos" data-url="postimpressionisme">Postimpressionisme</a>
+      <a href="#" <% if (category === 'expressionisme') { %>class="selected" <% } %> data-filter=".exp" data-url="expressionisme">Expressionisme</a>
+      <a href="#" <% if (category === 'abstract') { %>class="selected" <% } %> data-filter=".abs" data-url="abstract">Abstract</a>
+    </div>
+    <h4>Artiest</h4>
+    <div class="filter-list filter-art">
+      <a href="#" class="all <% if (artist !== 'vincent_van_gogh' && artist !== 'arnold_bocklin' && artist !== 'franz_marc' && artist !== 'edvard_munch' && artist !== 'paul_gauguin' && artist !== 'piet_mondriaan') { %>selected <% } %>" data-filter="*">Alles</a>
+      <a href="#" <% if (artist === 'vincent_van_gogh') { %>class="selected" <% } %> data-filter=".vvg" data-url="vincent_van_gogh">Vincent van Gogh</a>
+      <a href="#" <% if (artist === 'arnold_bocklin') { %>class="selected" <% } %> data-filter=".ab" data-url="arnold_bocklin">Arnold Böcklin</a>
+      <a href="#" <% if (artist === 'franz_marc') { %>class="selected" <% } %> data-filter=".fm" data-url="franz_marc">Franz Marc</a>
+      <a href="#" <% if (artist === 'edvard_munch') { %>class="selected" <% } %> data-filter=".em" data-url="edvard_munch">Edvard Munch</a>
+      <a href="#" <% if (artist === 'paul_gauguin') { %>class="selected" <% } %> data-filter=".pg" data-url="paul_gauguin">Paul Gauguin</a>
+      <a href="#" <% if (artist === 'piet_mondriaan') { %>class="selected" <% } %> data-filter=".pm" data-url="piet_mondriaan">Piet Mondriaan</a>
+    </div>
+    <div class="painting-grid">
+      <% for (let i=0; i<art.length; i++) { %>
+        <a href="/painting/<%=art[i].name %>" class="single-image <%= art[i].filters %>">
+          <img src="<%=art[i].painting_img %>" alt="Foto <%=art[i].name %>">
+          <div class="overlay">
+            <h4><%=art[i].name %></h4>
+          </div>
+        </a>
+      <% } // close forloop %>
+    </div>
+  </section>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="/javascript/paintings.js"></script>
+<%- include('footer'); -%>

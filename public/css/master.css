@@ -175,6 +175,7 @@ body.menu-active .menu {
   font-size: 0.9rem;
   color: #33363d;
   border: 1px solid #F7F7F7;
+  border-radius: 0;
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
   transition: border 0.2s;
@@ -184,6 +185,7 @@ body.menu-active .menu {
   border: 1px solid #EA5757;
 }
 .submit-btn {
+  border-radius: 0;
   padding: 0.5rem 0.7rem;
   background-color: #EA5757;
   color: white;

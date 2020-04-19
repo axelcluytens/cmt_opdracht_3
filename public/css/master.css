@@ -171,6 +171,7 @@ body.menu-active .menu {
   border: 0;
   width: 100%;
   padding: 0.5rem 0.7rem;
+  margin: 0;
   font-size: 0.9rem;
   color: #33363d;
   border: 1px solid #F7F7F7;
@@ -187,6 +188,7 @@ body.menu-active .menu {
   background-color: #EA5757;
   color: white;
   border: 0;
+  margin: 0;
 }
 .menu ul {
   list-style-type: none;
